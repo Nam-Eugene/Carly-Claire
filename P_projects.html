@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Optional JavaScript --> <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+
+    </script>
+    <script
+            src="https://kit.fontawesome.com/af85690066.js"
+            crossorigin="anonymous">
+    </script>
+    <script src="main.js" defer></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+         a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+        }
+
+        .navbar li> a {
+            text-decoration:  none;
+        }
+
+        .navbar_logo {
+              font-family: 'Helvetica73', sans-serif;
+              font-size: 44px;
+              font-weight: bold;
+              text-align: left;
+              padding-top: 0px;
+
+        }
+
+        .navbar_menu {
+            display: flex;
+            list-style: none;
+            padding-left: 100;
+            margin-right: -16px;
+            padding-top: 36px;
+            font-family: 'Helvetica73', sans-serif;
+            font-size: 22px;
+            font-weight: lighter;
+
+        }
+        .navbar_menu li {
+            padding: 0px 36px 0 72px;
+        }
+
+        .navbar_icons {
+            list-style: none;
+            color: white;
+            display: flex;
+            padding-left: 0;
+            padding-top: 36px;
+            padding-right: 8px;
+            font-size: 24px;
+        }
+        .navbar_icons li {
+            padding: 8px 16px;
+        }
+
+        .mytitle {
+            color: white;
+        }
+
+
+body {
+    background-color: black;
+}
+.navbar_logo > a {
+    text-decoration:  none
+}
+
+
+.artworks {
+padding-top: 20px;
+font-family: 'Helvetica73', sans-serif;
+   color: white;
+   text-align: center;
+}
+
+.ex {
+    font-size: 20px;
+font-family: "Noto Sans KR", sans-serif;
+font-weight: lighter;
+text-align: center;
+padding-bottom: 60px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #33FF33;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+  .card{
+    margin: 26px auto 60px auto;
+    width: 70%;
+
+  }
+}
+
+        .navbar li> a {
+            text-decoration:  none;
+        }
+        .navbar_logo {
+              font-family: 'Helvetica73', sans-serif;
+              font-size: 44px;
+              font-weight: bold;
+              text-align: left;
+              padding-top: 0px;
+
+        }
+
+        .navbar_menu {
+            display: flex;
+            list-style: none;
+            padding-left: 100;
+            margin-right: -16px;
+            padding-top: 36px;
+            font-family: 'Helvetica73', sans-serif;
+            font-size: 22px;
+            font-weight: lighter;
+
+        }
+        .navbar_menu li {
+            padding: 0px 36px 0 72px;
+        }
+
+        .navbar_icons {
+            list-style: none;
+            color: white;
+            display: flex;
+            padding-left: 0;
+            padding-top: 36px;
+            padding-right: 8px;
+            font-size: 24px;
+        }
+        .navbar_icons li {
+            padding: 8px 16px;
+        }
+
+                @media screen and (max-width: 1400px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 27px 12px;
+            }
+            .navbar_menu {
+                display: none;
+                margin-top: -20px;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+            }
+            .navbar_menu li {
+                padding-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+            .navbar_icons {
+                display: none;
+                justify-content: center;
+                width: 100%;
+
+            }
+
+    </style>
+    <title>EUGENE_Videos</title>
+</head>
+<body>
+<div class="text-on-img">
+    <div class="background-wrap">
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <i class="bars"></i>
+                <a href="P_Home.html" class="mytitle"><strong>EUGENE.ZIP</strong></a>
+            </div>
+                        <ul class="navbar_menu">
+                <li><a href="P_Artworks.html">Artworks</a></li>
+                <li><a href="P_Videos.html">Videos</a></li>
+                <li><a href="P_projects.html">Projects</a></li>
+                <li><a href="P_activities.html">Activities</a></li>
+            </ul>
+         <ul class="navbar_icons">
+                <li>
+                    <a href="https://www.instagram.com/genewin_studio/">
+                        <i class="fa-brands fa-instagram-square"></i></li>
+                </a>
+            </ul>
+        </nav>
+
+    </div>
+
+</div>
+
+<div class="artworks">
+    <p class="title">Videos</p>
+    <p class="ex">모션그래픽, p5js 등 다양한 기술을 활용한 영상</p>
+</div>
+
+<div class="video">
+<div class="card bg-dark text-white">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/qgtcLIY7JyU' frameborder='0'
+                allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="card bg-dark text-white">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/hVyqNHXzUIo' frameborder='0' allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="card bg-dark text-white">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/ktGxqZRiHzw' frameborder='0' allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="card bg-dark text-white">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/LasEvEDEfug' frameborder='0' allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="card bg-dark text-white">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/8-Fcae2W4c4' frameborder='0' allowfullscreen></iframe>
+    </div>
+</div>
+
+0
+</div>
+</body>
+
+
+</html>
